@@ -22,9 +22,11 @@ This little starter project has enables you to get a Gulp project up and running
     * gulp-sass
     * gulp-sourcemaps
     * gulp-uglify
+    
+    Just `cd` into your new project folder and do this:
 
     ```bash
-    npm install --save-dev @babel/core @babel/preset-env babel autoprefixer browser-sync cssnano postcss gulp gulp-babel gulp-concat gulp-nunjucks-render gulp-postcss gulp-sass gulp-sourcemaps gulp-uglify
+    npm install
     ```
 
     And wait.
