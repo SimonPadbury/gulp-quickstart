@@ -74,6 +74,7 @@ function reload(done) {
 
 function watchFiles() {
   watch('./src/assets/**/*', series(fileCopyTask, reload));
+  watch('./src/partials/**/*', series(nunjucksTask, reload));
   watch('./src/pages/**/*', series(nunjucksTask, reload));
   watch('./src/js/**/*.js', series(jsTask, reload));
   watch('./src/scss/**/*.scss', series(cssTask, reload));
