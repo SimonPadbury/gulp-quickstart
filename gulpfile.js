@@ -50,6 +50,7 @@ function fileCopyTask() {
       './src/assets/**/*.html',
       './src/assets/**/*.css',
       './src/assets/**/*.js',
+      './src/assets/**/*.map',
       './src/assets/**/*.svg',
       './src/assets/**/*.gif',
       './src/assets/**/*.jpg',
