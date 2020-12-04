@@ -67,6 +67,7 @@ The Gulp tasks are looking for folders in your `./src` directory.
     * `.html`
     * `.css`
     * `.js`
+    * `.map`
     * `.svg`
     * `.gif`
     * `.jpg`
